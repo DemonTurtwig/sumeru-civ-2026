@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\ALLAN\OneDrive\문서\WwiseProjects\Sumeru\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ALLAN\OneDrive\문서\WwiseProjects\Sumeru\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ALLAN\OneDrive\문서\WwiseProjects\Sumeru\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\ALLAN\OneDrive\문서\WwiseProjects\Sumeru\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="119909572" Language="SFX">
+			<ShortName>For Riddles, for Wonders.wav</ShortName>
+			<Path>SFX\For Riddles, for Wonders_59C9A42B.wem</Path>
+		</File>
+		<File Id="148049970" Language="SFX">
+			<ShortName>Rustling of Tender Foliage.wav</ShortName>
+			<Path>SFX\Rustling of Tender Foliage_59C9A42B.wem</Path>
+		</File>
+		<File Id="274468947" Language="SFX">
+			<ShortName>End of the Feast.wav</ShortName>
+			<Path>SFX\End of the Feast_59C9A42B.wem</Path>
+		</File>
+		<File Id="644677948" Language="SFX">
+			<ShortName>Overnight Dew in the Woods.wav</ShortName>
+			<Path>SFX\Overnight Dew in the Woods_59C9A42B.wem</Path>
+		</File>
+		<File Id="801960025" Language="SFX">
+			<ShortName>Ethereal Mildness.wav</ShortName>
+			<Path>SFX\Ethereal Mildness_59C9A42B.wem</Path>
+		</File>
+		<File Id="814475698" Language="SFX">
+			<ShortName>Sumeru.wav</ShortName>
+			<Path>SFX\Sumeru_59C9A42B.wem</Path>
+		</File>
+		<File Id="870654646" Language="SFX">
+			<ShortName>Melody of Hidden Seeds.wav</ShortName>
+			<Path>SFX\Melody of Hidden Seeds_59C9A42B.wem</Path>
+		</File>
+		<File Id="908255657" Language="SFX">
+			<ShortName>A Drowsy Sensation.wav</ShortName>
+			<Path>SFX\A Drowsy Sensation_59C9A42B.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2166216777" Language="SFX">
+			<ShortName>Sumeru_Soundtrack</ShortName>
+			<Path>Sumeru_Soundtrack.bnk</Path>
+			<IncludedEvents>
+				<Event Id="777202665" Name="Pause_Music_Sumeru"/>
+				<Event Id="3009328725" Name="Play_Leader_Music_Sumeru"/>
+				<Event Id="3226990615" Name="Play_Music_Sumeru"/>
+				<Event Id="2580344858" Name="Resume_Music_Sumeru"/>
+				<Event Id="671719535" Name="Start_Music_Sumeru"/>
+				<Event Id="2451045491" Name="Stop_Leader_Music_Sumeru"/>
+				<Event Id="1304689153" Name="Stop_Music_Sumeru"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="119909572"/>
+				<File Id="148049970"/>
+				<File Id="274468947"/>
+				<File Id="644677948"/>
+				<File Id="801960025"/>
+				<File Id="814475698"/>
+				<File Id="870654646"/>
+				<File Id="908255657"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="119909572" Language="SFX">
+					<ShortName>For Riddles, for Wonders.wav</ShortName>
+					<Path>SFX\For Riddles, for Wonders_59C9A42B.wem</Path>
+				</File>
+				<File Id="148049970" Language="SFX">
+					<ShortName>Rustling of Tender Foliage.wav</ShortName>
+					<Path>SFX\Rustling of Tender Foliage_59C9A42B.wem</Path>
+				</File>
+				<File Id="644677948" Language="SFX">
+					<ShortName>Overnight Dew in the Woods.wav</ShortName>
+					<Path>SFX\Overnight Dew in the Woods_59C9A42B.wem</Path>
+				</File>
+				<File Id="801960025" Language="SFX">
+					<ShortName>Ethereal Mildness.wav</ShortName>
+					<Path>SFX\Ethereal Mildness_59C9A42B.wem</Path>
+				</File>
+				<File Id="870654646" Language="SFX">
+					<ShortName>Melody of Hidden Seeds.wav</ShortName>
+					<Path>SFX\Melody of Hidden Seeds_59C9A42B.wem</Path>
+				</File>
+				<File Id="908255657" Language="SFX">
+					<ShortName>A Drowsy Sensation.wav</ShortName>
+					<Path>SFX\A Drowsy Sensation_59C9A42B.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

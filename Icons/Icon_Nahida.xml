@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icon_Nahida -->
+<!-- Author: ALLAN -->
+<!-- DateCreated: 10/7/2024 2:17:55 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_SUMERU_NAHIDA" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_NAHIDA_32.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_NAHIDA" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_NAHIDA_45.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_NAHIDA" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_NAHIDA_50.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_NAHIDA" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_NAHIDA_55.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_NAHIDA" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_NAHIDA_64.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_NAHIDA" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_NAHIDA_80.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_NAHIDA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_NAHIDA_256.dds"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_SUMERU_NAHIDA" Atlas="ATLAS_ICON_SUMERU_NAHIDA" Index="0"/>
+		<Row Name="ICON_BELIEF_DREAMS_OF_VANARANA" Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="23"/>
+	</IconDefinitions>
+	
+</GameData>

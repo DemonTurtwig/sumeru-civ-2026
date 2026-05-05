@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nahida_Text_EN -->
+<!-- Author: ALLAN -->
+<!-- DateCreated: 9/30/2024 3:41:43 PM -->
+<GameData>
+		<BaseGameText>
+			<!-- Agenda Name -->
+			<Row Tag="LOC_TRAIT_AGENDA_SUMERU_GUARDIAN_OF_HARMONY_NAME">
+			<Text>Guardian of Harmony</Text>
+			</Row>
+			<Row Tag="LOC_TRAIT_AGENDA_SUMERU_GUARDIAN_OF_HARMONY_DESCRIPTION">
+			<Text>Nahida dislikes civilizations that declare war on their neighbors. She favors leaders who maintain peaceful relations and strive for regional harmony.</Text>
+			</Row>
+			
+			<!-- Accepting Declaration of Friendship -->
+			<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Our paths align in harmony. Let us walk together and grow stronger.</Text>
+			</Row>
+
+			<!-- Rejecting Declaration of Friendship -->
+			<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>I cannot yet call you "friend." The threads of fate are uncertain for now.</Text>
+			</Row>
+
+			<!-- AI Declaring Friendship -->
+			<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Your heart resonates with peace. Let us join in mutual growth and understanding.</Text>
+			</Row>
+
+			<!-- AI Accepting Friendship -->
+			<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>The future is brighter when we work together. Thank you.</Text>
+			</Row>
+
+			<!-- AI Rejecting Friendship -->
+			<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Your intentions are clouded. I cannot accept this now.</Text>
+			</Row>
+
+			<!-- Human Declaring War -->
+			<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Conflict was never my wish, but if you seek to disrupt the balance, I must defend my people.</Text>
+			</Row>
+
+			<!-- AI Declaring War -->
+			<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>You have disturbed the harmony. This cannot go unchallenged.</Text>
+			</Row>
+
+			<!-- Accepting Delegation -->
+			<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Your offering is well received. May it foster deeper understanding between us.</Text>
+			</Row>
+
+			<!-- Rejecting Delegation -->
+			<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Now is not the time. Our paths must remain separate for a while longer.</Text>
+			</Row>
+
+			<!-- AI Sending Delegation -->
+			<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>I offer these gifts as a symbol of goodwill from the people of Sumeru.</Text>
+			</Row>
+
+			<!-- Human Denouncing -->
+			<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>You tread recklessly upon dangerous ground, upsetting the natural order.</Text>
+			</Row>
+
+			<!-- AI Denouncing -->
+			<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Disrupting the harmony of the world will not go unnoticed. (Denounces you)</Text>
+			</Row>
+
+			<!-- First Meeting -->
+			<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>I am Nahida, protector of knowledge and balance. Let us learn from each other.</Text>
+			</Row>
+
+			<!-- First Visit -->
+			<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Welcome to our lands. The wonders of Sumeru await your discovery.</Text>
+			</Row>
+
+			<!-- Positive First Impressions -->
+			<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Your presence brings a sense of peace. Let us continue this path.</Text>
+			</Row>
+
+			<!-- No Information Exchange -->
+			<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Would you share the location of your capital? I will gladly share mine.</Text>
+			</Row>
+
+			<!-- Greeting -->
+			<Row Tag="LOC_DIPLO_GREETING_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Greetings. May our meeting bring wisdom and peace to all.</Text>
+			</Row>
+
+			<!-- Compliment Exit -->
+			<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Your actions have restored balance where there was none. I am grateful.</Text>
+			</Row>
+
+			<!-- Warning Exit -->
+			<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Be cautious. Your choices risk disturbing the delicate harmony of the world.</Text>
+			</Row>
+
+			<!-- AI Making Alliance -->
+			<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Let us unite our strengths and guide our people toward a future of harmony.</Text>
+			</Row>
+
+			<!-- AI Accepting Peace Deal -->
+			<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Peace at last. May our wounds heal and wisdom prevail.</Text>
+			</Row>
+
+			<!-- AI Refusing Peace Deal -->
+			<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>No, this conflict cannot end under these terms.</Text>
+			</Row>
+
+			<!-- AI Offering Peace -->
+			<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Enough blood has been spilled. It is time to end this conflict.</Text>
+			</Row>
+
+			<!-- Accepting Open Borders -->
+			<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Yes, you may pass freely through our lands.</Text>
+			</Row>
+
+			<!-- Rejecting Open Borders -->
+			<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Our lands must remain closed to outsiders for now.</Text>
+			</Row>
+
+			<!-- AI Requesting Open Borders -->
+			<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Your lands are a mystery to us. May we pass through to learn more?</Text>
+			</Row>
+
+			<!-- Warning for Too Many Troops -->
+			<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>Your armies are far too close to my cities. This threatens the peace between us.</Text>
+			</Row>
+
+			<!-- Defeat from AI -->
+			<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>The balance I sought to protect has been shattered.</Text>
+			</Row>
+
+			<!-- Rejecting Deal -->
+			<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>This deal is not acceptable in its current form.</Text>
+			</Row>
+
+			<!-- Accepting Deal -->
+			<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SUMERU_NAHIDA_ANY">
+				<Text>This agreement benefits us both. Good.</Text>
+			</Row>
+			<!-- Agenda -->
+			<Row Tag="LOC_DIPLO_MODIFIER_SUMERU_NAHIDA_PEACEFUL_NEIGHBORS">
+				<Text>Impressed by peaceful relations with neighboring civilizations</Text>
+			</Row>
+
+			<Row Tag="LOC_DIPLO_MODIFIER_SUMERU_NAHIDA_WAR_AGAINST_NEIGHBORS">
+				<Text>Dislikes your aggression towards neighboring civilizations</Text>
+			</Row>
+
+		</BaseGameText>
+	
+</GameData>

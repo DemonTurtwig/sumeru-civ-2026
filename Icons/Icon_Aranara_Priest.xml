@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icon_Aranara_Priest -->
+<!-- Author: ALLAN -->
+<!-- DateCreated: 3/30/2026 2:55:47 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_PRIEST" IconSize="22" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraPriestAtlas22.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_PRIEST" IconSize="32" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraPriestAtlas32.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_PRIEST" IconSize="38" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraPriestAtlas38.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_PRIEST" IconSize="50" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraPriestAtlas50.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_PRIEST" IconSize="70" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraPriestAtlas70.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_PRIEST" IconSize="80" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraPriestAtlas80.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_PRIEST" IconSize="95" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraPriestAtlas95.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_PRIEST" IconSize="200" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraPriestAtlas200.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_PRIEST" IconSize="256" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraPriestAtlas256.dds"/>
+	</IconTextureAtlases>
+	<!-- Icon has been put oppositely, so 0 and 1 have changed -->
+	<IconDefinitions>
+		<Row Name="ICON_UNIT_SUMERU_ARANARA_PRIEST_PORTRAIT" Atlas="ATLAS_ICON_SUMERU_ARANARA_PRIEST" Index="1"/>
+		<Row Name="ICON_UNIT_SUMERU_ARANARA_PRIEST" Atlas="ATLAS_ICON_SUMERU_ARANARA_PRIEST" Index="0" />
+	</IconDefinitions>
+</GameData>

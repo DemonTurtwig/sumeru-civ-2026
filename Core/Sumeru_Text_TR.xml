@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sumeru_Text_KR -->
+<!-- Author: ALLAN -->
+<!-- DateCreated: 9/29/2026 5:06:38 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- CIVILIZATION -->
+		<Row Tag="LOC_CIVILIZATION_SUMERU_NAME" Language="ko_KR">
+			<Text>수메르</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SUMERU_DESCRIPTION" Language="ko_KR">
+			<Text>수메르 문명</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SUMERU_ADJECTIVE" Language="ko_KR">
+			<Text>수메르</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+			<Text>수메르는 티바트의 7대 국가 중 하나로, 학문과 지혜로 유명합니다. 학문과 문화를 이끄는 아카데미야의 지도 아래, 수메르의 주민들은 자연과 지식의 조화를 이루며 살아갑니다. 풀의 집정관, 나히다의 보호 아래 수메르는 평화로운 지혜의 땅으로 번영합니다.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_2" Language="ko_KR">
+			<Text>수메르의 대도시부터 적색 모래 바다에 이르기까지, 이 문명은 고대의 지혜와 현대적인 신앙의 융합입니다. 주민들은 나히다와 아카데미야의 학자들을 경배하며 자연과 생명의 신비를 탐구합니다.</Text>
+		</Row>
+
+
+		<!-- TRAITS -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SUMERU_ABILITY_NAME" Language="ko_KR">
+			<Text>세계수의 보호</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SUMERU_ABILITY_DESCRIPTION" Language="ko_KR">
+			<Text>모든 고유 특수지구에는 추가적인 [ICON_Tourism] 관광이 붙으며, 문화 폭탄을 발생시킵니다. 점성술이 무료로 주어지며, 정선궁을 처음 지으면 위대한 선지자가 나타납니다. 도시를 펼때 추가적으로 영토를 얻으며, +20 충성도를 제공합니다. </Text>
+		</Row>
+
+		<!-- LEADER (Nahida) -->
+		<Row Tag="LOC_LEADER_SUMERU_NAHIDA_NAME" Language="ko_KR">
+			<Text>나히다</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_SUMERU_NAHIDA_DESCRIPTION" Language="ko_KR">
+			<Text>수메르의 집정관, 나히다는 지혜의 수호자로서 지식과 사람들을 보호합니다. 그녀의 통치는 신앙, 문화, 자연과의 깊은 연결을 통해 성장하는 데 중점을 둡니다.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_SUMERU_NAHIDA_TRAIT_NAME" Language="ko_KR">
+			<Text>숲의 지혜</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_SUMERU_NAHIDA_TRAIT_DESCRIPTION" Language="ko_KR">
+			<Text>나히다는 다른 전투 유닛과 종교 유닛을 만들 수 없습니다. 수메르의 시민들은 나히다의 지혜로 일반 시민보다 더 많은 [ICON_Faith] 신앙을 생성하며 총 턴당 신앙의 100%에 해당하는 [ICON_Gold] 금, [ICON_Science] 과학, [ICON_Culture] 문화를 얻습니다. [ICON_CivicBoosted] 영감과 [ICON_TechBoosted] 유레카는 기존 30%가 아닌 100%를 제공합니다.</Text>
+		</Row>
+		
+
+		<!-- UNITS -->
+		<Row Tag="LOC_UNIT_SUMERU_ARANARA_DEFENDER" Language="ko_KR">
+			<Text>아란나라(수호자)</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SUMERU_ARANARA_DEFENDER_DESCRIPTION" Language="ko_KR">
+			<Text>수메르의 고유 유닛입니다. 다양한 행동을 할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARANARA_NAME" Language="ko_KR">
+			<Text>신비한 아란나라</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARANARA_DESCRIPTION" Language="ko_KR">
+			<Text>아란나라들의 고유 진급입니다. 전략적 자원을 해금하는 기술을 얻으면 공격력과 이동력이 증가합니다.</Text>
+		</Row>
+		<!-- Aranara Striker -->
+		<Row Tag="LOC_UNIT_SUMERU_ARANARA_STRIKER" Language="ko_KR">
+			<Text>아란나라(공중)</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SUMERU_ARANARA_STRIKER_DESCRIPTION" Language="ko_KR">
+			<Text>수메르의 고유 유닛으로, 폭격기를 대체합니다. 도시를 공격할 때 더 강력합니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_SUMERU_ARANARA_SCOUT" Language="ko_KR">
+			<Text>아란나라(정찰병)</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SUMERU_ARANARA_SCOUT_DESCRIPTION" Language="ko_KR">
+			<Text>수메르의 고유 유닛으로, 전사를 대체합니다. 전사보다 더 이동할 수 있고, 원거리 전투를 할 수 있습니다. 공중 유닛에게 데미지를 입힐 수 있으며, 도시를 개척할수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_SUMERU_ARANARA_PRIEST" Language="ko_KR">
+			<Text>아란나라(성직자)</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SUMERU_ARANARA_PRIEST_DESCRIPTION" Language="ko_KR">
+			<Text>수메르의 고유 유닛으로, 모든 종교 유닛을 대체합니다. 모든 종교 유닛보다 더 이동할 수 있습니다.</Text>
+		</Row>
+
+		<!-- DISTRICTS -->
+		<!-- Sanctuary of Surasthana -->
+		<Row Tag="LOC_DISTRICT_SUMERU_SANCTUARY_NAME" Language="ko_KR">
+			<Text>정선궁</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SUMERU_SANCTUARY_DESCRIPTION" Language="ko_KR">
+			<Text>수메르의 고유 성지 대체 특수지구입니다. 모든 타일에 +2 [ICON_Faith] 인접 보너스를 제공합니다. 도시에 [ICON_Faith] 신앙, [ICON_Science] 과학, [ICON_Food] 식량, [ICON_Housing] 주거공간, [ICON_Production] 생산력, [ICON_Amenities] 쾌적도를 매우 큰 폭으로 증가시킵니다.</Text>
+		</Row>
+
+		<!-- Grand Bazaar -->
+		<Row Tag="LOC_DISTRICT_SUMERU_BAZAAR_NAME" Language="ko_KR">
+			<Text>바자르</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SUMERU_BAZAAR_DESCRIPTION" Language="ko_KR">
+			<Text>수메르의 고유 극장가 대체 특수지구입니다. 모든 타일에 +2 [ICON_Culture] 인접 보너스를 제공합니다. 추가로 [ICON_Food] 식량과 [ICON_Culture] 문화, [ICON_Gold] 골드, [ICON_Production] 생산력을 제공합니다.</Text>
+		</Row>
+
+		<!-- Shrine of Maya -->
+		<Row Tag="LOC_DISTRICT_SUMERU_MAYA_NAME" Language="ko_KR">
+			<Text>마야의 전당</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SUMERU_MAYA_DESCRIPTION" Language="ko_KR">
+			<Text>수메르의 고유 주택가 대체 특수지구입니다. +10 [ICON_Housing] 주거공간, +10 [ICON_Strength] 도시 방어력, +2 [ICON_Food] 식량, +2 [ICON_Production] 생산력을 제공합니다.</Text>
+		</Row>
+
+		<!-- CITY NAMES -->
+		<Row Tag="LOC_CITY_NAME_SUMERU_CITY_OF_SUMERU" Language="ko_KR">
+			<Text>수메르성</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_GANDHARVA_VILLE" Language="ko_KR">
+			<Text>간다르바 성곽</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_VIMARA_VILLAGE" Language="ko_KR">
+			<Text>비마라 마을</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_VANARANA" Language="ko_KR">
+			<Text>바나라나</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_PORT_ORMOS" Language="ko_KR">
+			<Text>오르모스 항구</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_APAM_WOODS" Language="ko_KR">
+			<Text>수천삼림</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_AARU_VILLAGE" Language="ko_KR">
+			<Text>아루 마을</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_DESERT_OF_HADRAMAVETH" Language="ko_KR">
+			<Text>하드라마베스 사막</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_CARAVAN_RIBAT" Language="ko_KR">
+			<Text>카라반 수도원</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_GAVIREH_LAJAVARD" Language="ko_KR">
+			<Text>라즈워드 황야</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_DREAMS_OF_VANARANA_NAME" Language="ko_KR">
+			<Text>꿈의 바나라나</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_DREAMS_OF_VANARANA_DESCRIPTION" Language="ko_KR">
+			<Text>이 종교를 믿는 자신의 도시에서 기존의 직업윤리 및 종교 식민지화 효과와 인구 [ICON_Citizen] 1명당 +5% [ICON_Production] 생산력를 획득하며, 창시자에게만 적용됩니다. 모든 유닛은 이 종교를 믿는 도시의 경계 내에서 [ICON_Strength] 전투력 +15를 획득하며, 전투 승리시 종교가 주변 도시에 전파됩니다.</Text>
+		</Row>
+		<!-- CITIZENS -->
+		<Row Tag="LOC_CITIZEN_SUMERU_ALHAITHAM" Language="ko_KR">
+			<Text>알하이탐</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_CYNO" Language="ko_KR">
+			<Text>사이노</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_TIGHNARI" Language="ko_KR">
+			<Text>타이나리</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_KAVEH" Language="ko_KR">
+			<Text>카베</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_NILOU" Language="ko_KR">
+			<Text>닐루</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_DUNYARZAD" Language="ko_KR">
+			<Text>두냐르자드</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_DORI" Language="ko_KR">
+			<Text>도리</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_DEHYA" Language="ko_KR">
+			<Text>데히야</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FARUZAN" Language="ko_KR">
+			<Text>파루잔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_CANDACE" Language="ko_KR">
+			<Text>캔디스</Text>
+		</Row>
+		
+		<Row Tag="LOC_LOADING_INFO_LEADER_NAHIDA" Language="ko_KR">
+			<Text>지혜로운 나히다, 작은 쿠사나리 화신이시여, 집정관 중 가장 젊으나, 무한한 지혜를 품으신 분. 수메르의 백성은 당신을 존경하며, 당신의 지도 아래 지식과 조화, 균형의 땅이 자라납니다. 새로운 깨달음을 얻을 때마다, 당신은 백성들을 삶의 신비에 한 발짝 더 가깝게 이끄십니다. 나아가십시오, 풀의 집정관이시여! 자연의 온화한 힘으로 백성을 이끌고, 적들은 그들의 무지 속에 무너질 것입니다. 당신의 날카로운 시선 아래, 수메르는 번영할 것이며, 지식의 씨앗이 문명의 기둥으로 자라날 것입니다.</Text>
+		</Row>
+		
+		<!--Aranara Promotions-->
+		<Row Tag="LOC_PROMOTION_ARANARA_COMBAT_O_NAME" Language="ko_KR">
+			<Text>원소 O</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARANARA_COMBAT_O_DESCRIPTION" Language="ko_KR">
+			<Text>원소 O 진급은 원거리 페널티 무시와 아란나라들이 점프할 수 있게 해줍니다.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARANARA_COMBAT_I_NAME" Language="ko_KR">
+			<Text>원소 I</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARANARA_COMBAT_I_DESCRIPTION" Language="ko_KR">
+			<Text>원소 I 진급은 아란나라의 공격력을 20, 이동력을 1만큼 증가시킵니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_ARANARA_COMBAT_II_NAME" Language="ko_KR">
+			<Text>원소 II</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARANARA_COMBAT_II_DESCRIPTION" Language="ko_KR">
+			<Text>원소 II 진급은 아란나라의 공격력을 20, 이동력을 1만큼 증가시킵니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_ARANARA_COMBAT_III_NAME" Language="ko_KR">
+			<Text>원소 III</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARANARA_COMBAT_III_DESCRIPTION" Language="ko_KR">
+			<Text>원소 III 진급은 아란나라의 공격력을 10, 이동력을 1만큼 증가시킵니다.</Text>
+		</Row>
+		
+		<Row Tag="LOC_PROMOTION_ARANARA_FIGHT_I_NAME" Language="ko_KR">
+			<Text>마스터리 I</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARANARA_FIGHT_I_DESCRIPTION" Language="ko_KR">
+			<Text>마스터리 I 진급은 아란나라의 공격력을 20, 이동력을 1만큼 증가시킵니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_ARANARA_FIGHT_II_NAME" Language="ko_KR">
+			<Text>마스터리 II</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARANARA_FIGHT_II_DESCRIPTION" Language="ko_KR">
+			<Text>마스터리 II 진급은 아란나라의 공격력을 20, 이동력을 1만큼 증가시킵니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_ARANARA_FIGHT_III_NAME" Language="ko_KR">
+			<Text>마스터리 III</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARANARA_FIGHT_III_DESCRIPTION" Language="ko_KR">
+			<Text>마스터리 III 진급은 아란나라의 공격력을 10, 이동력을 1만큼 증가시킵니다.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
+

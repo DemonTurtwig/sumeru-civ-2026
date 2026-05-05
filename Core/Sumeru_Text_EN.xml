@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sumeru_Text_EN -->
+<!-- Author: ALLAN -->
+<!-- DateCreated: 9/29/2024 4:31:44 PM -->
+<GameData>
+	<BaseGameText>
+		<!-- CIVILIZATION -->
+		<Row Tag="LOC_CIVILIZATION_SUMERU_NAME">
+			<Text>Sumeru</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SUMERU_DESCRIPTION">
+			<Text>Sumeru Civilization</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SUMERU_ADJECTIVE">
+			<Text>Sumerian</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_1">
+			<Text>Sumeru is one of the seven nations of Teyvat. The region is renowned for its wisdom and scholars, with the Akademiya guiding its intellectual and cultural growth. Under the watchful eye of the Dendro Archon, Nahida, Sumeru's inhabitants live in harmony with nature and knowledge.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_2">
+			<Text>From the grand city of Sumeru to the Great Red Sands, this civilization is a blend of ancient wisdom and modern faith. The citizens revere both Nahida and the scholars of the Akademiya, who explore the mysteries of nature and life.</Text>
+		</Row>
+		
+		<Row Tag="LOC_LOADING_INFO_LEADER_NAHIDA">
+			<Text>Wise Nahida, Lesser Lord Kusanali, the youngest of the Archons, yet the one who wields the boundless wisdom of Irminsul. The people of Sumeru look to you for guidance, as you nurture a land of knowledge, balance, and harmony. With each new insight, you bring your nation closer to understanding the mysteries of life itself. Go forth, Archon of Wisdom! Lead your people with the gentle strength of nature and let your enemies crumble beneath the weight of their ignorance. Under your watchful gaze, may Sumeru flourish, where the seeds of knowledge blossom into the pillars of civilization.</Text>
+		</Row>
+
+		<!-- TRAITS -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SUMERU_ABILITY_NAME">
+			<Text>Protection of Irminsul</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SUMERU_ABILITY_DESCRIPTION">
+			<Text>All unique district grants extra [ICON_Tourism] tourism and triggers culture bombs. Astrology is unlocked for free, and a free Great Prophet appears after building Sanctuary of Surasthana in a city. Cities get additional tiles when settled and are provided with additional +20 loyalty.</Text>
+		</Row>
+	
+		<!-- LEADER (Nahida) -->
+		<Row Tag="LOC_LEADER_SUMERU_NAHIDA_NAME">
+			<Text>Nahida</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_SUMERU_NAHIDA_DESCRIPTION">
+			<Text>The Dendro Archon of Sumeru, Nahida is the guardian of wisdom, protecting both the knowledge and the people of her realm. Her leadership focuses on growth through faith, culture, and a deep connection to the natural world.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_SUMERU_NAHIDA_TRAIT_NAME">
+			<Text>Wisdom of the Woods</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_SUMERU_NAHIDA_TRAIT_DESCRIPTION">
+			<Text>Nahida cannot purchase any military and religious units outside of Aranara. Under Nahida's wisdom, citizens of Sumeru produces more [ICON_Faith] Faith, and gets 100% of [ICON_Gold] [ICON_Science] [ICON_Culture] these outputs from faith. Inspirations [ICON_CivicBoosted] and Eurekas [ICON_TechBoosted] provide 100% instead of the normal 30%.</Text>
+		</Row>
+		
+		<!-- UNITS -->
+		<!-- Aranara Defender (Replaces Giant Death Robot) -->
+		<Row Tag="LOC_UNIT_SUMERU_ARANARA_DEFENDER">
+			<Text>Aranara (Defender)</Text>
+		</Row>
+		
+		<Row Tag="LOC_UNIT_SUMERU_ARANARA_DEFENDER_DESCRIPTION">
+			<Text>Sumeru's unique unit which can do various things.</Text>
+		</Row>
+		
+		<Row Tag="LOC_PROMOTION_ARANARA_NAME">
+			<Text>Mystical Aranara</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_ARANARA_DESCRIPTION">
+			<Text>Aranaras have their unique promotion, which increases their attack and movement based on each strategical resource found.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_SUMERU_ARANARA_STRIKER">
+			<Text>Aranara(Air)</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SUMERU_ARANARA_STRIKER_DESCRIPTION">
+			<Text>Unique to Sumeru, replacing the Air Bomber. Stronger than most Air Units, but Nahida can build no other military units other than Aranara.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_SUMERU_ARANARA_SCOUT">
+			<Text>Aranara(Scout)</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SUMERU_ARANARA_SCOUT_DESCRIPTION">
+			<Text>Unique to Sumeru, replacing the Warrior. It can move longer distances, and can do long ranged attacks. It can also deal devastating damage to Air units and also can settle cities. Nahida can build no other military units other than Aranara.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_SUMERU_ARANARA_PRIEST">
+			<Text>Aranara(Priest)</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SUMERU_ARANARA_PRIEST_DESCRIPTION">
+			<Text>Unique to Sumeru, replacing all Religious Faith units which can move longer distances.</Text>
+		</Row>
+
+		<!-- DISTRICTS -->
+		<!-- Sanctuary of Surasthana -->
+		<Row Tag="LOC_DISTRICT_SUMERU_SANCTUARY_NAME">
+			<Text>Sanctuary of Surasthana</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SUMERU_SANCTUARY_DESCRIPTION">
+			<Text>Sumeru's unique Holy Site replacement. Provides +2 [ICON_Faith] adjacency bonus for all tiles. Increases [ICON_Faith] Faith, [ICON_Science] Science, [ICON_Amenities] Amenities, [ICON_Food] Food and [ICON_Housing] Housing tremendously. Also provides minor [ICON_Production] Production bonus.</Text>
+		</Row>
+
+		<!-- Grand Bazaar -->
+		<Row Tag="LOC_DISTRICT_SUMERU_BAZAAR_NAME">
+			<Text>Grand Bazaar</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SUMERU_BAZAAR_DESCRIPTION">
+			<Text>Sumeru's unique Theater Square replacement. Provides +2 [ICON_Culture] adjacency bonus for [ICON_Culture] Culture for all tiles, and provides significant amount of [ICON_Gold] Gold and minor Production [ICON_Production] bonus.</Text>
+		</Row>
+
+		<!-- Shrine of Maya -->
+		<Row Tag="LOC_DISTRICT_SUMERU_MAYA_NAME">
+			<Text>Shrine of Maya</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SUMERU_MAYA_DESCRIPTION">
+			<Text>Sumeru's unique Neighborhood replacement. Provides +10 [ICON_Housing] housing, +10 [ICON_Strength] city defense, +4 [ICON_Food] food, and +4 [ICON_Production] production.</Text>
+		</Row>
+
+		<!-- CITY NAMES -->
+		<Row Tag="LOC_CITY_NAME_SUMERU_CITY_OF_SUMERU">
+			<Text>Sumeru City</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_GANDHARVA_VILLE">
+			<Text>Gandharva Ville</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_VIMARA_VILLAGE">
+			<Text>Vimara Village</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_VANARANA">
+			<Text>Vanarana</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_PORT_ORMOS">
+			<Text>Port Ormos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_APAM_WOODS">
+			<Text>Apam Woods</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_AARU_VILLAGE">
+			<Text>Aaru Village</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_DESERT_OF_HADRAMAVETH">
+			<Text>Desert of Hadramaveth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_CARAVAN_RIBAT">
+			<Text>Caravan Ribat</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU_GAVIREH_LAJAVARD">
+			<Text>Gavireh Lajavard</Text>
+		</Row>
+
+		<!-- CITIZENS -->
+		<Row Tag="LOC_CITIZEN_SUMERU_ALHAITHAM">
+			<Text>Alhaitham</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_CYNO">
+			<Text>Cyno</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_TIGHNARI">
+			<Text>Tighnari</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_KAVEH">
+			<Text>Kaveh</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_NILOU">
+			<Text>Nilou</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_DUNYARZAD">
+			<Text>Dunyarzad</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_DORI">
+			<Text>Dori</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_DEHYA">
+			<Text>Dehya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FARUZAN">
+			<Text>Faruzan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_CANDACE">
+			<Text>Candace</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_DREAMS_OF_VANARANA_NAME">
+			<Text>Dreams of Vanarana</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_DREAMS_OF_VANARANA_DESCRIPTION">
+			<Text>Grants Work Ethic and Religious Colonization bonuses and +5% [ICON_Production] production per population [ICON_Citizen] of that city which follows this religion. Every unit that can attack gains +15 [ICON_Strength] Combat Strength within cities that believe in this religion and will spread when an enemy unit is killed.</Text>
+		</Row>
+		<!--Aranara Promotion Names-->
+
+		<Row Tag="LOC_PROMOTION_ARANARA_COMBAT_O_NAME">
+			<Text>Element O</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARANARA_COMBAT_O_DESCRIPTION">
+			<Text>Element O allows Aranaras to jump and ignore ranged penalty.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_ARANARA_COMBAT_I_NAME">
+			<Text>Element I</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARANARA_COMBAT_I_DESCRIPTION">
+			<Text>Element I increases Aranara's Attack by 20 and movement by 1.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_ARANARA_COMBAT_II_NAME">
+			<Text>Element II</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARANARA_COMBAT_II_DESCRIPTION">
+			<Text>Element II increases Aranara's Attack by 20 and movement by 1.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_ARANARA_COMBAT_III_NAME">
+			<Text>Element III</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARANARA_COMBAT_III_DESCRIPTION">
+			<Text>Element III increases Aranara's Attack by 10 and movement by 1.</Text>
+		</Row>
+		
+		<Row Tag="LOC_PROMOTION_ARANARA_FIGHT_I_NAME">
+			<Text>Mastery I</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARANARA_FIGHT_I_DESCRIPTION">
+			<Text>Mastery I increases Aranara's Attack by 20 and movement by 1.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_ARANARA_FIGHT_II_NAME">
+			<Text>Mastery II</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARANARA_FIGHT_II_DESCRIPTION">
+			<Text>Mastery II increases Aranara's Attack by 20 and movement by 1.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_ARANARA_FIGHT_III_NAME">
+			<Text>Mastery III</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARANARA_FIGHT_III_DESCRIPTION">
+			<Text>Mastery III increases Aranara's Attack by 10 and movement by 1.</Text>
+		</Row>
+	</BaseGameText>
+</GameData>

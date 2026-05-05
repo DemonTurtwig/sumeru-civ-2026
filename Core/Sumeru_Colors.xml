@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sumeru_Colors -->
+<!-- Author: ALLAN -->
+<!-- DateCreated: 10/6/2024 4:46:43 PM -->
+<GameData>
+	<Colors>
+		<Row Type="COLOR_PLAYER_LEADER_SUMERU_NAHIDA_PRIMARY" Color="237,233,232,255"/>
+		<Row Type="COLOR_PLAYER_LEADER_SUMERU_NAHIDA_SECONDARY" Color="24,73,36,255"/>
+		<Row Type="COLOR_PLAYER_LEADER_SUMERU_NAHIDA_TEXT" Color="255,255,255,255"/>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_SUMERU_NAHIDA</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_STANDARD_WHITE_LT</PrimaryColor>
+			<SecondaryColor>COLOR_STANDARD_GREEN_DK</SecondaryColor>
+		</Row>
+	</PlayerColors>
+</GameData>

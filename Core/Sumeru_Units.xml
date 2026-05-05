@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sumeru_Units -->
+<!-- Author: ALLAN -->
+<!-- DateCreated: 9/30/2024 1:07:22 PM -->
+<GameData>
+	<!-- Types for Aranara Units -->
+	<Types>
+		<Row Type="UNIT_SUMERU_ARANARA_DEFENDER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SUMERU_ARANARA_STRIKER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SUMERU_ARANARA_SCOUT" Kind="KIND_UNIT"/>
+	</Types>
+	
+	<!-- Unit Definitions -->
+	<Units>
+		<Row UnitType="UNIT_SUMERU_ARANARA_DEFENDER"
+			 Name="LOC_UNIT_SUMERU_ARANARA_DEFENDER"
+			 Description="LOC_UNIT_SUMERU_ARANARA_DEFENDER_DESCRIPTION"
+			 ZoneOfControl="true"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			 PromotionClass="PROMOTION_CLASS_ARANARA"
+			 Maintenance="30"
+			 PurchaseYield="YIELD_FAITH"
+			 Cost="500"
+			 CostProgressionParam1="100"
+			 BaseMoves="4"
+			 BaseSightRange="15"
+			 Combat="50"
+			 RangedCombat="50"
+			 AntiAirCombat="50"
+			 Range="6"
+			 Domain="DOMAIN_LAND"
+			 CanTargetAir="true"
+			 Stackable="true"
+			 PrereqTech="TECH_ASTROLOGY"
+			 TraitType="TRAIT_CIVILIZATION_UNIT_SUMERU_ARANARA_DEFENDER"/>
+
+		<Row UnitType="UNIT_SUMERU_ARANARA_STRIKER"
+			Name="LOC_UNIT_SUMERU_ARANARA_STRIKER"
+			Description="LOC_UNIT_SUMERU_ARANARA_STRIKER_DESCRIPTION"
+			ZoneOfControl="true"
+			FormationClass="FORMATION_CLASS_AIR"
+			PromotionClass="PROMOTION_CLASS_AIR_BOMBER"
+			Maintenance="100"
+			PurchaseYield="YIELD_FAITH"
+			Cost="5000"
+			CostProgressionParam1="2500"
+			BaseMoves="20"
+			BaseSightRange="200"
+			Combat="150"
+			Bombard="250"
+			AntiAirCombat="150"
+			Range="120"
+			Domain="DOMAIN_AIR"
+			TraitType="TRAIT_CIVILIZATION_UNIT_SUMERU_ARANARA_STRIKER"
+			Stackable="TRUE"
+			CanTargetAir="TRUE"
+			PrereqDistrict=""
+			WMDCapable="true"
+			PrereqTech="TECH_INDUSTRIALIZATION"/>
+		
+		<Row UnitType="UNIT_SUMERU_ARANARA_SCOUT"
+			Name="LOC_UNIT_SUMERU_ARANARA_SCOUT"
+			Description="LOC_UNIT_SUMERU_ARANARA_SCOUT_DESCRIPTION"
+			ZoneOfControl="true"
+			FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			PromotionClass="PROMOTION_CLASS_ARANARA"
+			Maintenance="0"
+			PurchaseYield="YIELD_FAITH"
+			Cost="0"
+			BaseMoves="4"
+			BaseSightRange="6"
+			Range="5"
+			Combat="33"
+			RangedCombat="33"
+			AntiAirCombat="33"
+			Domain="DOMAIN_LAND"
+			TraitType="TRAIT_CIVILIZATION_UNIT_SUMERU_ARANARA_SCOUT"
+			CanTargetAir="TRUE"
+			FoundCity="TRUE"
+			CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES"
+			CostProgressionParam1="30"
+			Stackable="true"/>
+	</Units>
+	
+	
+
+	<!-- Unit Replacements -->
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_SUMERU_ARANARA_DEFENDER" ReplacesUnitType="UNIT_GIANT_DEATH_ROBOT"/>
+		<Row CivUniqueUnitType="UNIT_SUMERU_ARANARA_STRIKER" ReplacesUnitType="UNIT_BOMBER"/>
+		<Row CivUniqueUnitType="UNIT_SUMERU_ARANARA_SCOUT" ReplacesUnitType="UNIT_WARRIOR"/>
+	</UnitReplaces>
+
+
+	<Tags>
+		<Row Tag="CLASS_SUMERU_ARANARA_LAND" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_SUMERU_ARANARA_AIR" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	
+	<TypeTags>
+		<Row Type="UNIT_SUMERU_ARANARA_DEFENDER" Tag="CLASS_SUMERU_ARANARA_LAND"/>
+		<Row Type="UNIT_SUMERU_ARANARA_SCOUT" Tag="CLASS_SUMERU_ARANARA_LAND"/>
+		<Row Type="UNIT_SUMERU_ARANARA_STRIKER" Tag="CLASS_SUMERU_ARANARA_AIR"/>
+		<Row Type="UNIT_SUMERU_ARANARA_DEFENDER" Tag="CLASS_ANTI_AIR"/>
+		<Row Type="UNIT_SUMERU_ARANARA_DEFENDER" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_SUMERU_ARANARA_STRIKER" Tag="CLASS_ANTI_AIR"/>
+		<Row Type="UNIT_SUMERU_ARANARA_STRIKER" Tag="CLASS_AIRCRAFT"/>
+		<Row Type="UNIT_SUMERU_ARANARA_STRIKER" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_SUMERU_ARANARA_SCOUT" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_SUMERU_ARANARA_SCOUT" Tag="CLASS_ANTI_AIR"/>
+		<Row Type="ABILITY_UNIT_AUTO_VETERANCY" Tag="CLASS_SUMERU_ARANARA_LAND"/>
+		<Row Type="ABILITY_UNIT_WMD_RESISTANCE" Tag="CLASS_SUMERU_ARANARA_LAND"/>
+		<Row Type="ABILITY_UNIT_WMD_RESISTANCE" Tag="CLASS_SUMERU_ARANARA_AIR"/>
+		<Row Type="ABILITY_IGNORE_ZOC" Tag="CLASS_SUMERU_ARANARA_LAND"/>
+		<Row Type="ABILITY_UNOBSTRUCTED_VIEW" Tag="CLASS_SUMERU_ARANARA_LAND"/>
+		<Row Type="ABILITY_UNOBSTRUCTED_VIEW" Tag="CLASS_SUMERU_ARANARA_AIR"/>
+		<Row Type="ABILITY_IGNORE_CROSSING_RIVERS_COST"	Tag="CLASS_SUMERU_ARANARA_LAND"/>
+		<Row Type="ABILITY_UNIT_FIGHT_WHILE_EMBARKED" Tag="CLASS_SUMERU_ARANARA_LAND"/>
+		<Row Type="ABILITY_IGNORE_TERRAIN_COST"	Tag="CLASS_SUMERU_ARANARA_LAND"/>
+	</TypeTags>
+	
+	<UnitAiInfos>
+		<!-- Aranara Defender AI (based on Giant Death Robot) -->
+		<Row UnitType="UNIT_SUMERU_ARANARA_DEFENDER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SUMERU_ARANARA_DEFENDER" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_SUMERU_ARANARA_DEFENDER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_SUMERU_ARANARA_DEFENDER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SUMERU_ARANARA_DEFENDER" AiType="UNITTYPE_SIEGE_ALL"/>
+
+		<!-- Aranara Striker AI (based on Air Bomber) -->
+		<Row UnitType="UNIT_SUMERU_ARANARA_STRIKER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SUMERU_ARANARA_STRIKER" AiType="UNITTYPE_AIR_SIEGE"/>
+		<Row UnitType="UNIT_SUMERU_ARANARA_STRIKER" AiType="UNITTYPE_NUCLEAR"/>
+
+		<Row UnitType="UNIT_SUMERU_ARANARA_SCOUT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SUMERU_ARANARA_SCOUT" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_SUMERU_ARANARA_SCOUT" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_SUMERU_ARANARA_SCOUT" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_SUMERU_ARANARA_SCOUT" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SUMERU_ARANARA_SCOUT" AiType="UNITAI_SETTLE"/>
+	</UnitAiInfos>
+	
+</GameData>

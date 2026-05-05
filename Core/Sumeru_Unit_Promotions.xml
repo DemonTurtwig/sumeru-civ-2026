@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sumeru_EX_Data -->
+<!-- Author: ALLAN -->
+<!-- DateCreated: 10/13/2024 10:48:02 PM -->
+<GameData>
+	<!-- Promotions -->
+	<Types>
+		<Row Type="PROMOTION_CLASS_ARANARA" Kind="KIND_PROMOTION_CLASS"/>
+		<Row Type="PROMOTION_ARANARA_COMBAT_O" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_ARANARA_COMBAT_I" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_ARANARA_COMBAT_II" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_ARANARA_COMBAT_III" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_ARANARA_FIGHT_I" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_ARANARA_FIGHT_II" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_ARANARA_FIGHT_III" Kind="KIND_PROMOTION"/>
+	</Types>
+	<UnitPromotionClasses>
+		<Row PromotionClassType="PROMOTION_CLASS_ARANARA" Name="LOC_PROMOTION_ARANARA_NAME"/>
+	</UnitPromotionClasses>
+
+	<UnitPromotions>
+		<Row UnitPromotionType="PROMOTION_ARANARA_COMBAT_O" Name="LOC_PROMOTION_ARANARA_COMBAT_O_NAME" Description="LOC_PROMOTION_ARANARA_COMBAT_O_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_ARANARA"/>
+		<Row UnitPromotionType="PROMOTION_ARANARA_COMBAT_I" Name="LOC_PROMOTION_ARANARA_COMBAT_I_NAME" Description="LOC_PROMOTION_ARANARA_COMBAT_I_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_ARANARA"/>
+		<Row UnitPromotionType="PROMOTION_ARANARA_COMBAT_II" Name="LOC_PROMOTION_ARANARA_COMBAT_II_NAME" Description="LOC_PROMOTION_ARANARA_COMBAT_II_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_ARANARA"/>
+		<Row UnitPromotionType="PROMOTION_ARANARA_COMBAT_III" Name="LOC_PROMOTION_ARANARA_COMBAT_III_NAME" Description="LOC_PROMOTION_ARANARA_COMBAT_III_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_ARANARA"/>
+		<Row UnitPromotionType="PROMOTION_ARANARA_FIGHT_I" Name="LOC_PROMOTION_ARANARA_FIGHT_I_NAME" Description="LOC_PROMOTION_ARANARA_FIGHT_I_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_ARANARA"/>
+		<Row UnitPromotionType="PROMOTION_ARANARA_FIGHT_II" Name="LOC_PROMOTION_ARANARA_FIGHT_II_NAME" Description="LOC_PROMOTION_ARANARA_FIGHT_II_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_ARANARA"/>
+		<Row UnitPromotionType="PROMOTION_ARANARA_FIGHT_III" Name="LOC_PROMOTION_ARANARA_FIGHT_III_NAME" Description="LOC_PROMOTION_ARANARA_FIGHT_III_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_ARANARA"/>
+	</UnitPromotions>
+	
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_COMBAT_O</UnitPromotionType>
+			<ModifierId>ARANARA_IGNORE_RANGED_PENALTY</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_COMBAT_O</UnitPromotionType>
+			<ModifierId>ARANARA_JUMP_I</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_COMBAT_I</UnitPromotionType>
+			<ModifierId>ARANARA_COMBAT_I</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_COMBAT_I</UnitPromotionType>
+			<ModifierId>ARANARA_MOVEMENT_I</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_COMBAT_I</UnitPromotionType>
+			<ModifierId>ARANARA_ANTIAIR_I</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_COMBAT_II</UnitPromotionType>
+			<ModifierId>ARANARA_COMBAT_II</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_COMBAT_II</UnitPromotionType>
+			<ModifierId>ARANARA_MOVEMENT_II</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_COMBAT_II</UnitPromotionType>
+			<ModifierId>ARANARA_ANTIAIR_II</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_COMBAT_III</UnitPromotionType>
+			<ModifierId>ARANARA_COMBAT_III</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_COMBAT_III</UnitPromotionType>
+			<ModifierId>ARANARA_MOVEMENT_III</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_COMBAT_III</UnitPromotionType>
+			<ModifierId>ARANARA_ANTIAIR_III</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_FIGHT_I</UnitPromotionType>
+			<ModifierId>ARANARA_FIGHT_COMBAT_I</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_FIGHT_I</UnitPromotionType>
+			<ModifierId>ARANARA_FIGHT_MOVEMENT_I</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_FIGHT_I</UnitPromotionType>
+			<ModifierId>ARANARA_FIGHT_ANTIAIR_I</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_FIGHT_II</UnitPromotionType>
+			<ModifierId>ARANARA_FIGHT_COMBAT_II</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_FIGHT_II</UnitPromotionType>
+			<ModifierId>ARANARA_FIGHT_MOVEMENT_II</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_FIGHT_II</UnitPromotionType>
+			<ModifierId>ARANARA_FIGHT_ANTIAIR_II</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_FIGHT_III</UnitPromotionType>
+			<ModifierId>ARANARA_FIGHT_COMBAT_III</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_FIGHT_III</UnitPromotionType>
+			<ModifierId>ARANARA_FIGHT_MOVEMENT_III</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ARANARA_FIGHT_III</UnitPromotionType>
+			<ModifierId>ARANARA_FIGHT_ANTIAIR_III</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+
+	<!-- Promotion Modifiers -->
+
+	<Modifiers>
+		<Row>
+			<ModifierId>ARANARA_MOVEMENT_I</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_COMBAT_I</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_ANTIAIR_I</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_UNIT_ADJUST_ANTI_AIR_STRENGTH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_COMBAT_II</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_MOVEMENT_II</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_ANTIAIR_II</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_UNIT_ADJUST_ANTI_AIR_STRENGTH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_COMBAT_III</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_MOVEMENT_III</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_ANTIAIR_III</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_UNIT_ADJUST_ANTI_AIR_STRENGTH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_FIGHT_COMBAT_I</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_FIGHT_MOVEMENT_I</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_FIGHT_COMBAT_II</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_FIGHT_MOVEMENT_II</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_FIGHT_COMBAT_III</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_FIGHT_MOVEMENT_III</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_JUMP_I</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_UNIT_ADJUST_JUMP_DISTANCE</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>ARANARA_IGNORE_RANGED_PENALTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_IGNORE_RANGED_VS_DISTRICT_PENALTY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ARANARA_COMBAT_I</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_MOVEMENT_I</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_ANTIAIR_I</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_COMBAT_II</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_MOVEMENT_II</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_ANTIAIR_II</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_COMBAT_III</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_MOVEMENT_III</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_ANTIAIR_III</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>ARANARA_FIGHT_COMBAT_I</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_FIGHT_MOVEMENT_I</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_FIGHT_COMBAT_II</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_FIGHT_MOVEMENT_II</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_FIGHT_COMBAT_III</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARANARA_FIGHT_MOVEMENT_III</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>ARANARA_JUMP_I</ModifierId>
+			<Name>Range</Name>
+			<Value>10</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>ARANARA_IGNORE_RANGED_PENALTY</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="ARANARA_COMBAT_I" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_ARANARA_COMBAT_I_NAME}"/>
+		<Row ModifierId="ARANARA_MOVEMENT_I" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_ARANARA_COMBAT_I_NAME}"/>
+		<Row ModifierId="ARANARA_ANTIAIR_I" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_ARANARA_COMBAT_I_NAME}"/>
+		<Row ModifierId="ARANARA_COMBAT_II" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_ARANARA_COMBAT_II_NAME}"/>
+		<Row ModifierId="ARANARA_MOVEMENT_II" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_ARANARA_COMBAT_II_NAME}"/>
+		<Row ModifierId="ARANARA_ANTIAIR_II" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_ARANARA_COMBAT_II_NAME}"/>
+		<Row ModifierId="ARANARA_COMBAT_III" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_ARANARA_COMBAT_III_NAME}"/>
+		<Row ModifierId="ARANARA_MOVEMENT_III" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_ARANARA_COMBAT_III_NAME}"/>
+		<Row ModifierId="ARANARA_ANTIAIR_III" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_ARANARA_COMBAT_III_NAME}"/>
+		<Row ModifierId="ARANARA_FIGHT_COMBAT_I" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_ARANARA_FIGHT_I_NAME}"/>
+		<Row ModifierId="ARANARA_FIGHT_MOVEMENT_I" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_ARANARA_FIGHT_I_NAME}"/>
+		<Row ModifierId="ARANARA_FIGHT_COMBAT_II" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_ARANARA_FIGHT_II_NAME}"/>
+		<Row ModifierId="ARANARA_FIGHT_MOVEMENT_II" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_ARANARA_FIGHT_II_NAME}"/>
+		<Row ModifierId="ARANARA_FIGHT_COMBAT_III" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_ARANARA_FIGHT_III_NAME}"/>
+		<Row ModifierId="ARANARA_FIGHT_MOVEMENT_III" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_ARANARA_FIGHT_III_NAME}"/>
+	</ModifierStrings>
+	
+	
+	<TechnologyModifiers>
+		<Row>
+			<TechnologyType>TECH_ASTROLOGY</TechnologyType>
+			<ModifierId>PROMOTION_ARANARA_COMBAT_O_UPGRADE</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_BRONZE_WORKING</TechnologyType>
+			<ModifierId>PROMOTION_ARANARA_COMBAT_I_UPGRADE</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_MILITARY_ENGINEERING</TechnologyType>
+			<ModifierId>PROMOTION_ARANARA_COMBAT_II_UPGRADE</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_REFINING</TechnologyType>
+			<ModifierId>PROMOTION_ARANARA_COMBAT_III_UPGRADE</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_ANIMAL_HUSBANDRY</TechnologyType>
+			<ModifierId>PROMOTION_ARANARA_FIGHT_I_UPGRADE</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_INDUSTRIALIZATION</TechnologyType>
+			<ModifierId>PROMOTION_ARANARA_FIGHT_II_UPGRADE</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_RADIO</TechnologyType>
+			<ModifierId>PROMOTION_ARANARA_FIGHT_III_UPGRADE</ModifierId>
+		</Row>
+	</TechnologyModifiers>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>PROMOTION_ARANARA_COMBAT_O_UPGRADE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<SubjectRequirementSetId>PROMOTION_ARANARA_COMBAT_O_UPGRADE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PROMOTION_ARANARA_COMBAT_I_UPGRADE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<SubjectRequirementSetId>PROMOTION_ARANARA_COMBAT_I_UPGRADE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PROMOTION_ARANARA_COMBAT_II_UPGRADE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<SubjectRequirementSetId>PROMOTION_ARANARA_COMBAT_II_UPGRADE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PROMOTION_ARANARA_COMBAT_III_UPGRADE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<SubjectRequirementSetId>PROMOTION_ARANARA_COMBAT_III_UPGRADE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PROMOTION_ARANARA_FIGHT_I_UPGRADE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<SubjectRequirementSetId>PROMOTION_ARANARA_FIGHT_I_UPGRADE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PROMOTION_ARANARA_FIGHT_II_UPGRADE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<SubjectRequirementSetId>PROMOTION_ARANARA_FIGHT_II_UPGRADE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PROMOTION_ARANARA_FIGHT_III_UPGRADE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<SubjectRequirementSetId>PROMOTION_ARANARA_FIGHT_III_UPGRADE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PROMOTION_ARANARA_COMBAT_O_UPGRADE</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_ARANARA_COMBAT_O</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROMOTION_ARANARA_COMBAT_I_UPGRADE</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_ARANARA_COMBAT_I</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROMOTION_ARANARA_COMBAT_II_UPGRADE</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_ARANARA_COMBAT_II</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROMOTION_ARANARA_COMBAT_III_UPGRADE</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_ARANARA_COMBAT_III</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROMOTION_ARANARA_FIGHT_I_UPGRADE</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_ARANARA_FIGHT_I</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROMOTION_ARANARA_FIGHT_II_UPGRADE</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_ARANARA_FIGHT_II</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROMOTION_ARANARA_FIGHT_III_UPGRADE</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_ARANARA_FIGHT_III</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PROMOTION_ARANARA_COMBAT_O_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PROMOTION_ARANARA_COMBAT_I_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PROMOTION_ARANARA_COMBAT_II_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PROMOTION_ARANARA_COMBAT_III_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PROMOTION_ARANARA_FIGHT_I_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PROMOTION_ARANARA_FIGHT_II_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PROMOTION_ARANARA_FIGHT_III_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PROMOTION_ARANARA_COMBAT_O_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_SUMERU_ARANARA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PROMOTION_ARANARA_COMBAT_I_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_SUMERU_ARANARA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PROMOTION_ARANARA_COMBAT_II_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_SUMERU_ARANARA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PROMOTION_ARANARA_COMBAT_III_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_SUMERU_ARANARA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PROMOTION_ARANARA_FIGHT_I_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_SUMERU_ARANARA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PROMOTION_ARANARA_FIGHT_II_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_SUMERU_ARANARA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PROMOTION_ARANARA_FIGHT_III_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_SUMERU_ARANARA</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_SUMERU_ARANARA</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_SUMERU_ARANARA</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_SUMERU_ARANARA_LAND</Value>
+		</Row>
+	</RequirementArguments>
+	
+</GameData>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icon_Aranara_Scout -->
+<!-- Author: ALLAN -->
+<!-- DateCreated: 10/15/2024 2:53:30 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_SCOUT" IconSize="22" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraScoutAtlas22.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_SCOUT" IconSize="32" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraScoutAtlas32.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_SCOUT" IconSize="38" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraScoutAtlas38.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_SCOUT" IconSize="50" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraScoutAtlas50.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_SCOUT" IconSize="70" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraScoutAtlas70.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_SCOUT" IconSize="80" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraScoutAtlas80.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_SCOUT" IconSize="95" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraScoutAtlas95.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_SCOUT" IconSize="200" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraScoutAtlas200.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_SCOUT" IconSize="256" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraScoutAtlas256.dds"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_UNIT_SUMERU_ARANARA_SCOUT_PORTRAIT" Atlas="ATLAS_ICON_SUMERU_ARANARA_SCOUT" Index="0"/>
+		<Row Name="ICON_UNIT_SUMERU_ARANARA_SCOUT" Atlas="ATLAS_ICON_SUMERU_ARANARA_SCOUT" Index="1" />
+	</IconDefinitions>
+</GameData>

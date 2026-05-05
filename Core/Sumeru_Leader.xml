@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sumeru_Nahida -->
+<!-- Author: ALLAN -->
+<!-- DateCreated: 10/9/2024 3:33:38 PM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_SUMERU_NAHIDA" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_SUMERU_NAHIDA_ABILITY" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_SUMERU_RELIGIOUS_UNITS" Kind="KIND_ABILITY"/>
+	</Types>
+	
+	<TypeTags>
+		<Row Type="ABILITY_SUMERU_RELIGIOUS_UNITS" Tag="CLASS_RELIGIOUS_ALL"/>
+	</TypeTags>
+
+	<Leaders>
+		<Row LeaderType="LEADER_SUMERU_NAHIDA" Name="LOC_LEADER_SUMERU_NAHIDA_NAME" InheritFrom="LEADER_DEFAULT" Sex="Female"/>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_SUMERU_NAHIDA" Quote="LOC_LEADER_SUMERU_NAHIDA_QUOTE"/>
+	</LeaderQuotes>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_SUMERU_NAHIDA" TraitType="TRAIT_LEADER_SUMERU_NAHIDA_ABILITY"/>
+		<Row LeaderType="LEADER_SUMERU_NAHIDA" TraitType="TRAIT_LEADER_EXPANSIONIST"/>
+		<Row LeaderType="LEADER_SUMERU_NAHIDA" TraitType="TRAIT_LEADER_RELIGIOUS_MAJOR_CIV"/>
+	</LeaderTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_SUMERU_NAHIDA_ABILITY" Name="LOC_LEADER_SUMERU_NAHIDA_TRAIT_NAME" Description="LOC_LEADER_SUMERU_NAHIDA_TRAIT_DESCRIPTION"/>
+	</Traits>
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_SUMERU_NAHIDA" ForegroundImage="LEADER_NAHIDA_NEUTRAL" BackgroundImage="LEADER_NAHIDA_BACKGROUND" PlayDawnOfManAudio="1" LeaderText="LOC_LOADING_INFO_LEADER_NAHIDA"/>
+	</LoadingInfo>
+
+	<DiplomacyInfo>
+		<Row Type="LEADER_SUMERU_NAHIDA" BackgroundImage="LEADER_NAHIDA_BACKGROUND"/>
+	</DiplomacyInfo>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_SUMERU_NAHIDA_ABILITY" ModifierId="NAHIDA_POPULATION_FAITH"/>
+		<Row TraitType="TRAIT_LEADER_SUMERU_NAHIDA_ABILITY" ModifierId="NAHIDA_FAITH_CULTURE"/>
+		<Row TraitType="TRAIT_LEADER_SUMERU_NAHIDA_ABILITY" ModifierId="NAHIDA_FAITH_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_SUMERU_NAHIDA_ABILITY" ModifierId="NAHIDA_FAITH_GOLD"/>
+		<Row TraitType="TRAIT_LEADER_SUMERU_NAHIDA_ABILITY" ModifierId="NAHIDA_INSPIRATION"/>
+		<Row TraitType="TRAIT_LEADER_SUMERU_NAHIDA_ABILITY" ModifierId="NAHIDA_EUREKA"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row ModifierId="NAHIDA_POPULATION_FAITH" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION"/>
+		<Row ModifierId="NAHIDA_FAITH_CULTURE" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_YIELD_MODIFIER_FROM_FAITH"/>
+		<Row ModifierId="NAHIDA_FAITH_SCIENCE" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_YIELD_MODIFIER_FROM_FAITH"/>
+		<Row ModifierId="NAHIDA_FAITH_GOLD" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_YIELD_MODIFIER_FROM_FAITH"/>
+		<Row ModifierId="NAHIDA_INSPIRATION" ModifierType="MODIFIER_PLAYER_ADJUST_CIVIC_BOOST"/>
+		<Row ModifierId="NAHIDA_EUREKA" ModifierType="MODIFIER_PLAYER_ADJUST_TECHNOLOGY_BOOST"/>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row ModifierId="NAHIDA_POPULATION_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
+		<Row ModifierId="NAHIDA_POPULATION_FAITH" Name="Amount" Value="5"/>
+		<Row ModifierId="NAHIDA_FAITH_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="NAHIDA_FAITH_CULTURE" Name="Amount" Value="100"/>
+		<Row ModifierId="NAHIDA_FAITH_SCIENCE" Name="YieldType" Value="YIELD_SCIENCE"/>
+		<Row ModifierId="NAHIDA_FAITH_SCIENCE" Name="Amount" Value="100"/>
+		<Row ModifierId="NAHIDA_FAITH_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="NAHIDA_FAITH_GOLD" Name="Amount" Value="100"/>
+		<Row ModifierId="NAHIDA_INSPIRATION" Name="Amount" Value="100"/>
+		<Row ModifierId="NAHIDA_EUREKA" Name="Amount" Value="100"/>
+	</ModifierArguments>
+
+	<FavoredReligions>
+		<Row LeaderType="LEADER_SUMERU_NAHIDA" ReligionType="RELIGION_HINDUISM"/>
+	</FavoredReligions>
+
+</GameData>

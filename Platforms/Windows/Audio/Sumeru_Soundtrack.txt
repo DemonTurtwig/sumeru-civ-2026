@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	671719535	Start_Music_Sumeru			\Music\Start_Music_Sumeru	
+	777202665	Pause_Music_Sumeru			\Music\Pause_Music_Sumeru	
+	1304689153	Stop_Music_Sumeru			\Music\Stop_Music_Sumeru	
+	2451045491	Stop_Leader_Music_Sumeru			\Music\Stop_Leader_Music_Sumeru	
+	2580344858	Resume_Music_Sumeru			\Music\Resume_Music_Sumeru	
+	3009328725	Play_Leader_Music_Sumeru			\Music\Play_Leader_Music_Sumeru	
+	3226990615	Play_Music_Sumeru			\Music\Play_Music_Sumeru	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	373350295	Game_Location			\Default Work Unit\Game_Location	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	119909572	For Riddles, for Wonders	C:\Users\ALLAN\OneDrive\	148049970	Rustling of Tender Foliage	C:\Users\ALLAN\OneDrive\	644677948	Overnight Dew in the Woods	C:\Users\ALLAN\OneDrive\	801960025	Ethereal Mildness	C:\Users\ALLAN\OneDrive\	870654646	Melody of Hidden Seeds	C:\Users\ALLAN\OneDrive\	908255657	A Drowsy Sensation	C:\Users\ALLAN\OneDrive\
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	119909572	For Riddles, for Wonders	C:\Users\ALLAN\OneDrive\	148049970	Rustling of Tender Foliage	C:\Users\ALLAN\OneDrive\	274468947	End of the Feast	C:\Users\ALLAN\OneDrive\	644677948	Overnight Dew in the Woods	C:\Users\ALLAN\OneDrive\	801960025	Ethereal Mildness	C:\Users\ALLAN\OneDrive\	814475698	Sumeru	C:\Users\ALLAN\OneDrive\	870654646	Melody of Hidden Seeds	C:\Users\ALLAN\OneDrive\	908255657	A Drowsy Sensation	C:\Users\ALLAN\OneDrive\

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icon_Aranara_Striker -->
+<!-- Author: ALLAN -->
+<!-- DateCreated: 10/7/2024 2:19:02 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_STRIKER" IconSize="22" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraStrikerAtlas22.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_STRIKER" IconSize="32" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraStrikerAtlas32.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_STRIKER" IconSize="38" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraStrikerAtlas38.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_STRIKER" IconSize="50" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraStrikerAtlas50.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_STRIKER" IconSize="70" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraStrikerAtlas70.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_STRIKER" IconSize="80" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraStrikerAtlas80.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_STRIKER" IconSize="95" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraStrikerAtlas95.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_STRIKER" IconSize="200" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraStrikerAtlas200.dds"/>
+		<Row Name="ATLAS_ICON_SUMERU_ARANARA_STRIKER" IconSize="256" IconsPerRow="2" IconsPerColumn="1" Filename="AranaraStrikerAtlas256.dds"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_UNIT_SUMERU_ARANARA_STRIKER_PORTRAIT" Atlas="ATLAS_ICON_SUMERU_ARANARA_STRIKER" Index="0" />
+		<Row Name="ICON_UNIT_SUMERU_ARANARA_STRIKER" Atlas="ATLAS_ICON_SUMERU_ARANARA_STRIKER" Index="1" />
+		<Row Name="ICON_DISTRICT_SUMERU_BAZAAR" Atlas="ICON_ATLAS_DISTRICTS" Index="8"/>
+	</IconDefinitions>
+</GameData>

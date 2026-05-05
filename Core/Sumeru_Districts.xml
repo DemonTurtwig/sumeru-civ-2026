@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sumeru_Bazzar -->
+<!-- Author: ALLAN -->
+<!-- DateCreated: 10/8/2024 4:21:48 PM -->
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_SUMERU_BAZAAR" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_SUMERU_MAYA" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_SUMERU_SANCTUARY" Kind="KIND_DISTRICT"/>	
+	</Types>
+
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_SUMERU_BAZAAR" ReplacesDistrictType="DISTRICT_THEATER"/>
+		<Row CivUniqueDistrictType="DISTRICT_SUMERU_MAYA" ReplacesDistrictType="DISTRICT_NEIGHBORHOOD"/>
+		<Row CivUniqueDistrictType="DISTRICT_SUMERU_SANCTUARY" ReplacesDistrictType="DISTRICT_HOLY_SITE"/>
+	</DistrictReplaces>
+
+	<Districts>
+		<!-- BAZAAR -->
+		<Row DistrictType="DISTRICT_SUMERU_BAZAAR"
+		     Name="LOC_DISTRICT_SUMERU_BAZAAR_NAME"
+		     Description="LOC_DISTRICT_SUMERU_BAZAAR_DESCRIPTION"
+		     PrereqTech="TECH_ASTROLOGY"
+		     PlunderType="PLUNDER_CULTURE"
+		     PlunderAmount="3000"
+		     AdvisorType="ADVISOR_CULTURE"
+		     Cost="27"
+		     CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+		     CostProgressionParam1="10"
+		     Maintenance="0"
+		     RequiresPlacement="true"
+		     RequiresPopulation="false"
+		     Aqueduct="false"
+		     NoAdjacentCity="false"
+		     InternalOnly="false"
+		     ZOC="false"
+		     CaptureRemovesBuildings="true"
+		     CaptureRemovesCityDefenses="true"
+		     MilitaryDomain="NO_DOMAIN"
+		     Appeal="4"
+		     CityStrengthModifier="40"
+		     TraitType="TRAIT_CIVILIZATION_DISTRICT_SUMERU_BAZAAR"
+		     CitizenSlots="200"
+		     CanAttack="false"
+		     CaptureRemovesDistrict="false"/>
+		<!-- MAYA -->
+		<Row DistrictType="DISTRICT_SUMERU_MAYA"
+		     Name="LOC_DISTRICT_SUMERU_MAYA_NAME"
+		     Description="LOC_DISTRICT_SUMERU_MAYA_DESCRIPTION"
+		     PrereqTech="TECH_ASTROLOGY"
+		     PlunderType="PLUNDER_GOLD"
+		     PlunderAmount="200"
+		     AdvisorType="ADVISOR_GENERIC"
+		     Cost="54"
+		     CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+		     CostProgressionParam1="1000"
+		     Maintenance="0"
+		     RequiresPlacement="true"
+		     RequiresPopulation="false"
+		     Aqueduct="false"
+		     NoAdjacentCity="false"
+			 OnePerCity="false"
+		     InternalOnly="false"
+		     ZOC="false"
+		     CaptureRemovesBuildings="true"
+		     CaptureRemovesCityDefenses="true"
+		     MilitaryDomain="NO_DOMAIN"
+			 Housing="10"
+		     Appeal="4"
+		     CityStrengthModifier="10"
+		     TraitType="TRAIT_CIVILIZATION_DISTRICT_SUMERU_MAYA"
+		     CanAttack="false"
+		     CaptureRemovesDistrict="true"/>
+		<!-- SANCTUARY -->
+		<Row DistrictType="DISTRICT_SUMERU_SANCTUARY"
+			 Name="LOC_DISTRICT_SUMERU_SANCTUARY_NAME"
+			 Description="LOC_DISTRICT_SUMERU_SANCTUARY_DESCRIPTION"
+			 PrereqTech="TECH_ASTROLOGY"
+			 PlunderType="PLUNDER_FAITH"
+			 PlunderAmount="3000"
+			 AdvisorType="ADVISOR_RELIGION"
+			 Cost="27"
+			 AllowsHolyCity="true"
+			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+			 CostProgressionParam1="10"
+			 Maintenance="0"
+			 RequiresPlacement="true"
+			 RequiresPopulation="false"
+			 Aqueduct="false"
+			 NoAdjacentCity="false"
+			 InternalOnly="false"
+			 ZOC="false"
+			 CaptureRemovesBuildings="true"
+			 CaptureRemovesCityDefenses="true"
+			 MilitaryDomain="NO_DOMAIN"
+			 Appeal="4"
+			 CityStrengthModifier="40"
+			 TraitType="TRAIT_CIVILIZATION_DISTRICT_SUMERU_SANCTUARY"
+			 CitizenSlots="200"
+			 CanAttack="false"
+			 CaptureRemovesDistrict="false"/>
+	</Districts>
+	
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_SUMERU_BAZAAR" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_SUMERU_BAZAAR" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_SUMERU_BAZAAR" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_SUMERU_BAZAAR" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_SUMERU_SANCTUARY" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="2"/>
+	</District_GreatPersonPoints>
+
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_SUMERU_BAZAAR" YieldChangeId="Wonder_Culture"/>
+		<Row DistrictType="DISTRICT_SUMERU_BAZAAR" YieldChangeId="District_Culture"/>
+		<Row DistrictType="DISTRICT_SUMERU_SANCTUARY" YieldChangeId="NaturalWonder_Faith"/>
+		<Row DistrictType="DISTRICT_SUMERU_SANCTUARY" YieldChangeId="Mountain_Faith1"/>
+		<Row DistrictType="DISTRICT_SUMERU_SANCTUARY" YieldChangeId="Mountain_Faith2"/>
+		<Row DistrictType="DISTRICT_SUMERU_SANCTUARY" YieldChangeId="Mountain_Faith3"/>
+		<Row DistrictType="DISTRICT_SUMERU_SANCTUARY" YieldChangeId="Mountain_Faith4"/>
+		<Row DistrictType="DISTRICT_SUMERU_SANCTUARY" YieldChangeId="Mountain_Faith5"/>
+		<Row DistrictType="DISTRICT_SUMERU_SANCTUARY" YieldChangeId="Forest_Faith"/>
+		<Row DistrictType="DISTRICT_SUMERU_SANCTUARY" YieldChangeId="District_Faith"/>
+	</District_Adjacencies>
+
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_SUMERU_BAZAAR" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_SUMERU_BAZAAR" YieldType="YIELD_CULTURE" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_SUMERU_BAZAAR" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_SUMERU_BAZAAR" YieldType="YIELD_FOOD" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_SUMERU_SANCTUARY" YieldType="YIELD_FOOD" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_SUMERU_SANCTUARY" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_SUMERU_SANCTUARY" YieldType="YIELD_SCIENCE" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_SUMERU_SANCTUARY" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+	</District_CitizenYieldChanges>
+
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_SUMERU_SANCTUARY</DistrictType>
+			<ModifierId>NAHIDA_MASS_PROPHET_POINTS</ModifierId>
+		</Row>
+	</DistrictModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>NAHIDA_MASS_PROPHET_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>NAHIDA_MASS_PROPHET_POINTS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>NAHIDA_MASS_PROPHET_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>NAHIDA_MASS_PROPHET_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>180</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>NAHIDA_MASS_PROPHET_POINTS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>NAHIDA_MASS_PROPHET_POINTS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_SUMERU_SANCTUARY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NAHIDA_MASS_PROPHET_POINTS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_CAN_EVER_EARN_PROPHET</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_SUMERU_SANCTUARY</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_SUMERU_SANCTUARY</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_SUMERU_SANCTUARY</Value>
+		</Row>
+	</RequirementArguments>
+	
+</GameData>

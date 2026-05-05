@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nahida_Agenda -->
+<!-- Author: ALLAN -->
+<!-- DateCreated: 11/4/2024 1:04:47 PM -->
+<GameData>
+		<!-- Agenda Types -->
+		<Types>
+			<Row Type="TRAIT_LEADER_AGENDA_NAHIDA" Kind="KIND_TRAIT"/>
+		</Types>
+	
+		<Traits>
+		<Row TraitType="TRAIT_LEADER_AGENDA_NAHIDA"/>
+		</Traits>
+	
+		<ExclusiveAgendas>
+			<Row AgendaOne="AGENDA_GUARDIAN_OF_HARMONY" AgendaTwo="AGENDA_CULTURED"/>
+			<Row AgendaOne="AGENDA_GUARDIAN_OF_HARMONY" AgendaTwo="AGENDA_TECHNOPHILE"/>
+			<Row AgendaOne="AGENDA_GUARDIAN_OF_HARMONY" AgendaTwo="AGENDA_NUKE_LOVER"/>
+		</ExclusiveAgendas>
+
+		<HistoricalAgendas>
+		<Row LeaderType="LEADER_SUMERU_NAHIDA" AgendaType="AGENDA_GUARDIAN_OF_HARMONY"/>
+		</HistoricalAgendas>
+
+		<AgendaTraits>
+			<Row AgendaType="AGENDA_GUARDIAN_OF_HARMONY" TraitType="TRAIT_LEADER_AGENDA_NAHIDA"/>
+		</AgendaTraits>
+
+		<Agendas>
+			<Row AgendaType="AGENDA_GUARDIAN_OF_HARMONY" Name="LOC_TRAIT_AGENDA_SUMERU_GUARDIAN_OF_HARMONY_NAME" Description="LOC_TRAIT_AGENDA_SUMERU_GUARDIAN_OF_HARMONY_DESCRIPTION"/>
+		</Agendas>
+
+		<TraitModifiers>
+			<Row TraitType="TRAIT_LEADER_AGENDA_NAHIDA" ModifierId="AGENDA_GUARDIAN_OF_HARMONY_PEACE"/>
+			<Row TraitType="TRAIT_LEADER_AGENDA_NAHIDA" ModifierId="AGENDA_GUARDIAN_OF_HARMONY_WAR"/>
+		</TraitModifiers>
+
+		<Modifiers>
+			<Row ModifierId="AGENDA_GUARDIAN_OF_HARMONY_PEACE" ModifierType="MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER" SubjectRequirementSetId="PLAYER_NOT_AT_WAR_WITH_NEIGHBORS"/>
+			<Row ModifierId="AGENDA_GUARDIAN_OF_HARMONY_WAR" ModifierType="MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER" SubjectRequirementSetId="PLAYER_AT_WAR_WITH_NEIGHBORS"/>
+		</Modifiers>
+
+		<ModifierArguments>
+			<Row ModifierId="AGENDA_GUARDIAN_OF_HARMONY_PEACE" Name="StatementKey" Value="LOC_DIPLO_KUDO_LEADER_SUMERU_NAHIDA_ANY"/>
+			<Row ModifierId="AGENDA_GUARDIAN_OF_HARMONY_PEACE" Name="SimpleModifierDescription" Value="LOC_DIPLO_MODIFIER_SUMERU_NAHIDA_PEACEFUL_NEIGHBORS"/>
+			<Row ModifierId="AGENDA_GUARDIAN_OF_HARMONY_PEACE" Name="InitialValue" Value="30"/>
+			<Row ModifierId="AGENDA_GUARDIAN_OF_HARMONY_PEACE" Name="MaxValue" Value="50"/>
+			<Row ModifierId="AGENDA_GUARDIAN_OF_HARMONY_PEACE" Name="IncrementTurns" Value="3"/>
+			<Row ModifierId="AGENDA_GUARDIAN_OF_HARMONY_WAR" Name="StatementKey" Value="LOC_DIPLO_WARNING_LEADER_SUMERU_NAHIDA_ANY"/>
+			<Row ModifierId="AGENDA_GUARDIAN_OF_HARMONY_WAR" Name="SimpleModifierDescription" Value="LOC_DIPLO_MODIFIER_SUMERU_NAHIDA_WAR_AGAINST_NEIGHBORS"/>
+			<Row ModifierId="AGENDA_GUARDIAN_OF_HARMONY_WAR" Name="InitialValue" Value="-10"/>
+			<Row ModifierId="AGENDA_GUARDIAN_OF_HARMONY_WAR" Name="MaxValue" Value="-20"/>
+			<Row ModifierId="AGENDA_GUARDIAN_OF_HARMONY_WAR" Name="IncrementTurns" Value="3"/>
+		</ModifierArguments>
+	
+		<ModifierStrings>
+			<Row ModifierId="AGENDA_GUARDIAN_OF_HARMONY_PEACE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+			<Row ModifierId="AGENDA_GUARDIAN_OF_HARMONY_WAR" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		</ModifierStrings>
+	
+		<Requirements>
+			<Row RequirementId="REQUIRES_AT_WAR_WITH_NEIGHBORS" RequirementType="REQUIREMENT_PLAYER_AT_WAR_WITH_NEIGHBOR"/>
+			<Row RequirementId="REQUIRES_NOT_AT_WAR_WITH_NEIGHBORS" RequirementType="REQUIREMENT_PLAYER_AT_WAR_WITH_NEIGHBOR" Inverse="true"/>
+		</Requirements>
+
+		<RequirementSets>
+			<Row RequirementSetId="PLAYER_AT_WAR_WITH_NEIGHBORS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+			<Row RequirementSetId="PLAYER_NOT_AT_WAR_WITH_NEIGHBORS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		</RequirementSets>
+	
+	</GameData>

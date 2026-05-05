@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sumeru_Priest -->
+<!-- Author: ALLAN -->
+<!-- DateCreated: 3/30/2026 10:41:01 PM -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_SUMERU_ARANARA_PRIEST" Kind="KIND_UNIT"/>
+	</Types>
+	<!-- Unit Definitions -->
+	<Units>
+		<Row UnitType="UNIT_SUMERU_ARANARA_PRIEST"
+			Name="LOC_UNIT_SUMERU_ARANARA_PRIEST"
+			Description="LOC_UNIT_SUMERU_ARANARA_PRIEST_DESCRIPTION"
+			FormationClass="FORMATION_CLASS_CIVILIAN"
+			PromotionClass="PROMOTION_CLASS_APOSTLE"
+			PrereqDistrict="DISTRICT_SUMERU_SANCTUARY"		
+			PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS"
+			ReligiousStrength="300"
+			TrackReligion="TRUE"
+			SpreadCharges="15"
+			Maintenance="0"
+			PurchaseYield="YIELD_FAITH"
+			EvangelizeBelief="true"
+			ReligionEvictPercent="95"
+			LaunchInquisition="true"
+			InitialLevel="2"
+			NumRandomChoices="10"
+			Cost="100"
+			BaseMoves="10"
+			BaseSightRange="15"
+			Domain="DOMAIN_LAND"
+			TraitType="TRAIT_CIVILIZATION_UNIT_SUMERU_ARANARA_PRIEST"
+			CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES"
+			CostProgressionParam1="400"
+			Stackable="true"/>
+	</Units>
+
+	<Tags>
+		<Row Tag="CLASS_SUMERU_ARANARA_FAITH" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+
+	<TypeTags>
+		<Row Type="UNIT_SUMERU_ARANARA_PRIEST" Tag="CLASS_SUMERU_ARANARA_FAITH"/>
+		<Row Type="UNIT_SUMERU_ARANARA_PRIEST" Tag="CLASS_RELIGIOUS"/>
+		<Row Type="UNIT_SUMERU_ARANARA_PRIEST" Tag="CLASS_RELIGIOUS_ALL"/>
+		<Row Type="UNIT_SUMERU_ARANARA_PRIEST" Tag="CLASS_RELIGIOUS_SPREAD"/>
+		<Row Type="UNIT_SUMERU_ARANARA_PRIEST" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="ABILITY_IGNORE_CROSSING_RIVERS_COST"	Tag="CLASS_SUMERU_ARANARA_FAITH"/>
+		<Row Type="ABILITY_IGNORE_TERRAIN_COST"	Tag="CLASS_SUMERU_ARANARA_FAITH"/>
+		<Row Type="ABILITY_IGNORE_ZOC" Tag="CLASS_SUMERU_ARANARA_FAITH"/>
+	</TypeTags>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_SUMERU_ARANARA_PRIEST" AiType="UNITAI_EXPLORE"/>
+	</UnitAiInfos>
+
+</GameData>

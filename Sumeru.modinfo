@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="df03a254-4041-4d7f-b44a-94a89747e4a2" version="2">
+  <Properties>
+    <Name>Nahida of Sumeru</Name>
+    <Description>Step into the mystical lands of Sumeru, where the brilliant Nahida, the Dendro Archon, leads her people with wisdom, faith, and an unwavering connection to nature. In this mod, experience a truly unique civilization that harnesses the power of faith to control all aspects of its development, while utilizing the magical Aranara as both protectors and spiritual guides.</Description>
+    <Created>1775740959</Created>
+    <Teaser>Play as Nahida in Civilization VI!</Teaser>
+    <Authors>최초의 쌀숭이</Authors>
+    <SpecialThanks>HOYOVERSE, CivFanatics</SpecialThanks>
+    <Homepage>http://https://steamcommunity.com/profiles/76561198114710758/</Homepage>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="Sumeru_Config">
+      <File>Core/Sumeru_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="Sumeru_Art">
+      <File>Sumeru.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="Sumeru_Icons">
+      <File>Icons/Icon_Nahida.xml</File>
+      <File>Icons/Icon_Sumeru.xml</File>
+      <File>Icons/Icon_Aranara_Defender.xml</File>
+      <File>Icons/Icon_Aranara_Striker.xml</File>
+      <File>Icons/Icon_Aranara_Scout.xml</File>
+      <File>Icons/Icon_Aranara_Priest.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Sumeru_Text">
+      <File>Core/Sumeru_Text_EN.xml</File>
+      <File>Core/Sumeru_Text_TR.xml</File>
+    </UpdateText>
+    <UpdateColors id="Sumeru_Colors">
+      <File>Core/Sumeru_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="Sumeru_Art">
+      <File>Sumeru.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Sumeru_Database">
+      <File>Core/Sumeru_Civilization.xml</File>
+      <File>Core/Sumeru_Leader.xml</File>
+      <File>Core/Sumeru_Districts.xml</File>
+      <File>Core/Sumeru_District_Bonuses.xml</File>
+      <File>Core/Sumeru_Religion.xml</File>
+      <File>Core/Sumeru_Agenda.xml</File>
+      <File>Core/Sumeru_Units.xml</File>
+      <File>Core/Sumeru_Unit_Promotions.xml</File>
+      <File>Core/Sumeru_Unit_Priest.xml</File>
+      <File>Core/Sumeru_Moments.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Sumeru_Icons">
+      <File>Icons/Icon_Nahida.xml</File>
+      <File>Icons/Icon_Sumeru.xml</File>
+      <File>Icons/Icon_Aranara_Striker.xml</File>
+      <File>Icons/Icon_Aranara_Defender.xml</File>
+      <File>Icons/Icon_Aranara_Scout.xml</File>
+      <File>Icons/Icon_Aranara_Priest.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Sumeru_Text">
+      <File>Core/Sumeru_Text_EN.xml</File>
+      <File>Core/Sumeru_Text_TR.xml</File>
+      <File>Core/Sumeru_Ingame_Text_EN.xml</File>
+      <File>Core/Sumeru_Ingame_Text_TR.xml</File>
+    </UpdateText>
+    <UpdateColors id="Sumeru_Colors">
+      <File>Core/Sumeru_Colors.xml</File>
+    </UpdateColors>
+    <UpdateAudio id="Sumeru_Audio">
+      <File>Platforms/Windows/Audio/Sumeru_Soundtrack.bnk</File>
+      <File>Platforms/Windows/Audio/Sumeru_Soundtrack.ini</File>
+      <File>Platforms/Windows/Audio/Sumeru_Soundtrack.txt</File>
+      <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Civilization.artdef</File>
+    <File>Artdefs/Culture.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/LeaderFallbacks.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Core/Sumeru_Agenda.xml</File>
+    <File>Core/Sumeru_Civilization.xml</File>
+    <File>Core/Sumeru_Colors.xml</File>
+    <File>Core/Sumeru_Config.xml</File>
+    <File>Core/Sumeru_Districts.xml</File>
+    <File>Core/Sumeru_District_Bonuses.xml</File>
+    <File>Core/Sumeru_Ingame_Text_EN.xml</File>
+    <File>Core/Sumeru_Ingame_Text_TR.xml</File>
+    <File>Core/Sumeru_Leader.xml</File>
+    <File>Core/Sumeru_Moments.sql</File>
+    <File>Core/Sumeru_Religion.xml</File>
+    <File>Core/Sumeru_Text_EN.xml</File>
+    <File>Core/Sumeru_Text_TR.xml</File>
+    <File>Core/Sumeru_Units.xml</File>
+    <File>Core/Sumeru_Unit_Priest.xml</File>
+    <File>Core/Sumeru_Unit_Promotions.xml</File>
+    <File>Icons/Icon_Aranara_Defender.xml</File>
+    <File>Icons/Icon_Aranara_Priest.xml</File>
+    <File>Icons/Icon_Aranara_Scout.xml</File>
+    <File>Icons/Icon_Aranara_Striker.xml</File>
+    <File>Icons/Icon_Nahida.xml</File>
+    <File>Icons/Icon_Sumeru.xml</File>
+    <File>Platforms/MacOS/BLPs/FallbackLeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Leaders.blp</File>
+    <File>Platforms/Windows/Audio/119909572.wem</File>
+    <File>Platforms/Windows/Audio/148049970.wem</File>
+    <File>Platforms/Windows/Audio/274468947.wem</File>
+    <File>Platforms/Windows/Audio/644677948.wem</File>
+    <File>Platforms/Windows/Audio/801960025.wem</File>
+    <File>Platforms/Windows/Audio/814475698.wem</File>
+    <File>Platforms/Windows/Audio/870654646.wem</File>
+    <File>Platforms/Windows/Audio/908255657.wem</File>
+    <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/Audio/Sumeru_Soundtrack.bnk</File>
+    <File>Platforms/Windows/Audio/Sumeru_Soundtrack.ini</File>
+    <File>Platforms/Windows/Audio/Sumeru_Soundtrack.txt</File>
+    <File>Platforms/Windows/BLPs/FallbackLeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Leaders.blp</File>
+    <File>Sumeru.dep</File>
+  </Files>
+</Mod>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sumeru_Religion -->
+<!-- Author: ALLAN -->
+<!-- DateCreated: 3/PRODUCTION_OLD_WORK_ETHIC9/PRODUCTION_OLD_WORK_ETHIC0PRODUCTION_OLD_WORK_ETHIC6 5:48:09 PM -->
+<GameData>
+		<Types>
+			<Row Type="BELIEF_DREAMS_OF_VANARANA" Kind="KIND_BELIEF"/>
+		</Types>
+
+		<Beliefs>
+			<Row BeliefType="BELIEF_DREAMS_OF_VANARANA" Name="LOC_BELIEF_DREAMS_OF_VANARANA_NAME" Description="LOC_BELIEF_DREAMS_OF_VANARANA_DESCRIPTION" BeliefClassType="BELIEF_CLASS_FOLLOWER"/>
+		</Beliefs>
+	
+		<BeliefModifiers>
+			<Row BeliefType="BELIEF_DREAMS_OF_VANARANA" ModifierID="MODIFIER_DOV_PRODUCTION_WORK_ETHIC"/>
+			<Row BeliefType="BELIEF_DREAMS_OF_VANARANA" ModifierID="MODIFIER_DOV_PRODUCTION_OLD_WORK_ETHIC"/>
+			<Row BeliefType="BELIEF_DREAMS_OF_VANARANA" ModifierID="MODIFIER_DOV_PRODUCTION_OLD_WORK_ETHIC_MODIFIER"/>
+			<Row BeliefType="BELIEF_DREAMS_OF_VANARANA" ModifierID="MODIFIER_DOV_BUFF_ATTACH"/>
+			<Row BeliefType="BELIEF_DREAMS_OF_VANARANA" ModifierID="MODIFIER_DOV_DEFENDER_OF_ARANARA"/>
+			<Row BeliefType="BELIEF_DREAMS_OF_VANARANA" ModifierID="MODIFIER_DOV_DEFENDER_OF_IRMINSUL"/>
+			<Row BeliefType="BELIEF_DREAMS_OF_VANARANA" ModifierID="MODIFIER_DOV_CRUSADE"/>
+		</BeliefModifiers>
+
+		<Modifiers>
+			<Row ModifierId="MODIFIER_DOV_PRODUCTION_WORK_ETHIC" ModifierType="MODIFIER_ALL_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS" SubjectRequirementSetId="REQSET_DOV_FOLLOWER_CITY_WITH_HOLY_SITE"/>
+			<Row ModifierId="MODIFIER_DOV_PRODUCTION_OLD_WORK_ETHIC" ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="CITY_FOLLOWS_RELIGION_REQUIREMENTS"/>
+			<Row ModifierId="MODIFIER_DOV_PRODUCTION_OLD_WORK_ETHIC_MODIFIER" ModifierType="MODIFIER_FOLLOWER_YIELD_MODIFIER"/>
+			<Row ModifierId="MODIFIER_DOV_BUFF_ATTACH" ModifierType="MODIFIER_ALL_UNITS_ATTACH_MODIFIER" SubjectRequirementSetId="REQSET_DOV_BUFF"/>
+			<Row ModifierId="MODIFIER_DOV_BUFF_BONUS" ModifierType="MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH"/>
+			<Row ModifierId="MODIFIER_DOV_DEFENDER_OF_ARANARA" ModifierType="MODIFIER_PLAYER_RELIGION_ENABLE_AUTO_SPREAD"/>
+			<Row ModifierId="MODIFIER_DOV_DEFENDER_OF_IRMINSUL" ModifierType="MODIFIER_ALL_UNITS_ATTACH_MODIFIER" SubjectRequirementSetId="REQSET_IRMINSUL_BUFF"/>
+			<Row ModifierId="MODIFIER_DOV_CRUSADE" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_LAND_VICTORY_SPREAD"/>
+			
+		</Modifiers>
+
+		<ModifierArguments>
+			<!-- Production -->
+			<Row ModifierId="MODIFIER_DOV_PRODUCTION_WORK_ETHIC" Name="YieldTypeToMirror" Value="YIELD_FAITH"/>
+			<Row ModifierId="MODIFIER_DOV_PRODUCTION_WORK_ETHIC" Name="YieldTypeToGrant" Value="YIELD_PRODUCTION"/>
+
+			<Row ModifierId="MODIFIER_DOV_PRODUCTION_OLD_WORK_ETHIC" Name="ModifierId" Value="MODIFIER_DOV_PRODUCTION_OLD_WORK_ETHIC_MODIFIER"/>
+			<Row ModifierId="MODIFIER_DOV_PRODUCTION_OLD_WORK_ETHIC_MODIFIER" Name="YieldType" Value="YIELD_PRODUCTION"/>
+			<Row ModifierId="MODIFIER_DOV_PRODUCTION_OLD_WORK_ETHIC_MODIFIER" Name="Amount" Value="5"/>
+
+			<Row ModifierId="MODIFIER_DOV_BUFF_ATTACH" Name="ModifierId" Value="MODIFIER_DOV_BUFF_BONUS"/>
+			<Row ModifierId="MODIFIER_DOV_DEFENDER_OF_IRMINSUL" Name="ModifierId" Value="MODIFIER_DOV_BUFF_BONUS"/>
+			<Row ModifierId="MODIFIER_DOV_BUFF_BONUS" Name="Amount" Value="15"/>
+
+			<Row ModifierId="MODIFIER_DOV_DEFENDER_OF_ARANARA" Name="Enable" Value="True"/>
+			<Row ModifierId="MODIFIER_DOV_CRUSADE" Name="LandVictorySpread" Value="True"/>
+		</ModifierArguments>
+
+		<RequirementSets>
+			<!-- Production -->
+			<Row RequirementSetId="REQSET_DOV_FOLLOWER_CITY_WITH_HOLY_SITE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+			<Row RequirementSetId="REQSET_DOV_BUFF" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+			<Row RequirementSetId="REQSET_IRMINSUL_BUFF" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_DOV_FOLLOWER_CITY_WITH_HOLY_SITE" RequirementId="REQUIRES_CITY_FOLLOWS_RELIGION"/>
+		<Row RequirementSetId="REQSET_DOV_FOLLOWER_CITY_WITH_HOLY_SITE" RequirementId="REQ_DOV_CITY_HAS_HOLY_SITE"/>
+		<Row RequirementSetId="REQSET_DOV_BUFF" RequirementId="REQUIRES_PLAYER_FOUNDED_RELIGION"/>
+		<Row RequirementSetId="REQSET_DOV_BUFF" RequirementId="REQUIRES_UNIT_NEAR_ENEMY_RELIGIOUS_CITY"/>
+		<Row RequirementSetId="REQSET_IRMINSUL_BUFF" RequirementId="REQUIRES_PLAYER_FOUNDED_RELIGION"/>
+		<Row RequirementSetId="REQSET_IRMINSUL_BUFF" RequirementId="REQUIRES_UNIT_NEAR_FRIENDLY_RELIGIOUS_CITY"/>
+	</RequirementSetRequirements>
+
+		<Requirements>
+			<Row RequirementId="REQ_DOV_CITY_HAS_HOLY_SITE" RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"/>
+		</Requirements>
+
+		<RequirementArguments>
+			<Row RequirementId="REQ_DOV_CITY_HAS_HOLY_SITE" Name="DistrictType" Value="DISTRICT_HOLY_SITE"/>
+		</RequirementArguments>
+
+		<ModifierStrings>
+			<Row ModifierId="MODIFIER_DOV_BUFF_BONUS" Context="Preview" Text="+{1_Amount} {LOC_BELIEF_DREAMS_OF_VANARANA_NAME}"/>
+		</ModifierStrings>
+	</GameData>

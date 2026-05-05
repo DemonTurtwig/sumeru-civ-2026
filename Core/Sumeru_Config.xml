@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sumeru_Config -->
+<!-- Author: ALLAN -->
+<!-- DateCreated: 10/3/2024 9:53:08 PM -->
+
+	<GameData>
+		<!-- Players Section: Set the Civilization to Sumeru with Nahida as the leader -->
+		<Players>
+			<Row Domain="Players:Expansion2_Players"
+				 CivilizationType="CIVILIZATION_SUMERU"
+				 LeaderType="LEADER_SUMERU_NAHIDA"
+				 CivilizationName="LOC_CIVILIZATION_SUMERU_NAME"
+				 CivilizationIcon="ICON_CIVILIZATION_SUMERU"
+				 LeaderName="LOC_LEADER_SUMERU_NAHIDA_NAME"
+				 LeaderIcon="ICON_LEADER_SUMERU_NAHIDA"
+				 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_SUMERU_ABILITY_NAME"
+				 CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_SUMERU_ABILITY_DESCRIPTION"
+				 CivilizationAbilityIcon="ICON_CIVILIZATION_SUMERU"
+				 LeaderAbilityName="LOC_LEADER_SUMERU_NAHIDA_TRAIT_NAME"
+				 LeaderAbilityDescription="LOC_LEADER_SUMERU_NAHIDA_TRAIT_DESCRIPTION"
+				 LeaderAbilityIcon="ICON_LEADER_SUMERU_NAHIDA"
+				 Portrait="LEADER_NAHIDA_NEUTRAL"
+				 PortraitBackground="LEADER_NAHIDA_BACKGROUND"/>
+		</Players>
+
+		<!-- PlayerItems Section: Define the Unique Units and Improvements for Sumeru and Nahida -->
+		<PlayerItems>
+			<!-- Unique Improvement: Sanctuary -->
+			<Row Domain="Players:Expansion2_Players"
+				 CivilizationType="CIVILIZATION_SUMERU"
+				 LeaderType="LEADER_SUMERU_NAHIDA"
+				 Type="IMPROVEMENT_SANCTUARY_OF_SURASTHANA"
+				 Icon="ICON_DISTRICT_SUMERU_SANCTUARY"
+				 Name="LOC_DISTRICT_SUMERU_SANCTUARY_NAME"
+				 Description="LOC_DISTRICT_SUMERU_SANCTUARY_DESCRIPTION"
+				 SortIndex="10"/>
+
+			<!-- Unique Improvement: Bazaar -->
+			<Row Domain="Players:Expansion2_Players"
+				 CivilizationType="CIVILIZATION_SUMERU"
+				 LeaderType="LEADER_SUMERU_NAHIDA"
+				 Type="IMPROVEMENT_SUMERU_BAZAAR"
+				 Icon="ICON_DISTRICT_SUMERU_BAZAAR"
+				 Name="LOC_DISTRICT_SUMERU_BAZAAR_NAME"
+				 Description="LOC_DISTRICT_SUMERU_BAZAAR_DESCRIPTION"
+				 SortIndex="20"/>
+
+			<!-- Unique Improvement: Maya -->
+			<Row Domain="Players:Expansion2_Players"
+				 CivilizationType="CIVILIZATION_SUMERU"
+				 LeaderType="LEADER_SUMERU_NAHIDA"
+				 Type="IMPROVEMENT_SUMERU_MAYA"
+				 Icon="ICON_DISTRICT_SUMERU_MAYA"
+				 Name="LOC_DISTRICT_SUMERU_MAYA_NAME"
+				 Description="LOC_DISTRICT_SUMERU_MAYA_DESCRIPTION"
+				 SortIndex="30"/>
+		</PlayerItems>
+
+	</GameData>
